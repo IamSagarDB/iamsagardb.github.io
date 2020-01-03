@@ -12,6 +12,7 @@ body{
 }
 
 .main{
+    position: relative;
     
     
 }
@@ -26,6 +27,7 @@ body{
     font-family: sans-serif;
     margin: 0px;
     font-size: 18px;
+    width: 100%;
 }
 .text-main{
     margin-bottom: 10px;
@@ -40,21 +42,49 @@ body{
 }
 
 .github{
+    position: relative;
     margin: 0px;
-    padding: 0px;
+    width: 100%;
+    padding-top: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
 }
 
 .github-logo{
     height: 20px;
     width: 20px;
-    margin-top: 10px;
+    padding: 0px;
+    margin: 0px;
 }
 .github-name{
     font-size: 12px;
-    margin-top: 12px;
+    margin-top: 0px;
     margin-left: 5px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.gmail{
+    position: relative;
+    margin: 0px;
+    width: 100%;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.gmail-logo{
+    height: 20px;
+    width: 20px;
+    padding: 0px;
+    margin: 0px;
+}
+.gmail-name{
+    font-size: 12px;
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-bottom: 0px;
     padding: 0px;
 }
