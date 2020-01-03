@@ -1,0 +1,35 @@
+body{
+    margin: 10px;
+    padding: 0;
+    background-color: #252321;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+}
+
+.main{
+    
+    
+}
+.main-image{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.main-text-content{
+    font-family: sans-serif;
+    margin: 10px;
+}
+.text-main{
+    margin: 0px;
+    font-size: 20px;
+
+}
+.text-skill{
+    margin-top: 5px;
+}
