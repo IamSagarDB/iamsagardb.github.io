@@ -14,6 +14,7 @@ body{
 
 .main{
     position: relative;
+    text-align: start;
     
     
 }
@@ -78,8 +79,25 @@ body{
     cursor: pointer;
 }
 
+.resume-button{
+    border: 1.5px solid #d45c17;
+    color: #d45c17;
+    background: none;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding: 10px 20px;
+    font-size: "nunito";
+    cursor: pointer;
+    overflow: hidden;
+}
+.resume-button:hover{
+    color: #fff;
+    background-color: #d45c17;
+
+}
+
 @font-face{
     font-family: "nunito";
-    src: url("asset/font/Nunito-Regular.ttf");
+    src: url("asset/font/coderfont.ttf");
     
 }
