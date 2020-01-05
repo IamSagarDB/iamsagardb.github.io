@@ -89,11 +89,27 @@ body{
     font-size: "nunito";
     cursor: pointer;
     overflow: hidden;
+    border-radius: 12px;
 }
 .resume-button:hover{
     color: #fff;
     background-color: #d45c17;
 
+}
+
+.dev-page{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #252321;
+    color: #fff;
+    text-align: center;
+}
+.dev-name{
+    font-family: "nunito";
+    font-size: 12px;
+    font-weight: lighter;
 }
 
 @font-face{
