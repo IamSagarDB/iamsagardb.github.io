@@ -3,7 +3,7 @@ window.addEventListener('load',()=>{
     let gmailText = document.querySelector('.gmail-name');
 
     githubText.addEventListener('click',()=>{
-        window.open("https://www.github.com/imdropcodes");
+        window.open("https://www.github.com/IamSagarDB");
     });
 
 
